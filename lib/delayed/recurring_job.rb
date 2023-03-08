@@ -17,7 +17,7 @@ module Delayed
       schedule!
     end
 
-    def success
+    def success(*_args, **_kwargs)
       schedule!
     end
 
